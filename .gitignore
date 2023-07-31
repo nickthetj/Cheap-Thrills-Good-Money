@@ -9,6 +9,9 @@ __pycache__/
 # Unzipped Data
 unzippedData/
 
+# DS Store
+.DS_Store/
+
 # C extensions
 *.so
 
