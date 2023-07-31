@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Unzipped Data
+/Users/nicholastjandra/documents/flatiron/phase_2/DSC-Phase2-Project2/unzippedData/
+
+# Unzipped Data
+unzippedData/
+
 # C extensions
 *.so
 
