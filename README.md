@@ -33,7 +33,7 @@ For the IMDb dataset, we reviewed the following ERD visual, which allowed us to 
 ![ERD Diagram IMDB](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v3/main/movie_data_erd.jpeg)
 
 ### Data Cleaning
-Through the creation of the various functions detialed below, we were able to scrub the data from our various sources. Cleaning the data allowed us to run aggregating functions in the later stages of our data analysis. Sepcifically, we created three functions that helped to quickly clean columns and headings of our data throughout our project. These functions were applied to The Numbers dataset:
+Through the creation of the various functions detailed below, we were able to scrub the data from our various sources. Cleaning the data allowed us to run aggregating functions in the later stages of our data analysis. Specifically, we created three functions that helped to quickly clean columns and headings of our data throughout our project. These functions were applied to The Numbers dataset:
 
 - Function 1: for cleaning numbers column, removing unnecessary characters and casting the column as integers.
 
@@ -60,13 +60,13 @@ This overview provides a glimpse at the thinking behind each of the steps we per
 Using The Numbers dataset, we identified the columns 'Worldwide Gross' revenue and 'Production Budget' as the key metrics that we could use in our analysis. Each record in the dataset corresponds to a unique film and it includes the date of release for that film. 
 
 We engineered two columns: 'Profitability' and 'ARR':
- - First we created the column 'Profitability' to gain insight on exaclty how much money was earned by each film. The equation for this column subtracts the 'Production Budget' or the cost to create the movie from the revenues earned which is stored in the 'Worldwide Gross' column for each film.
+ - First we created the column 'Profitability' to gain insight on exactly how much money was earned by each film. The equation for this column subtracts the 'Production Budget' or the cost to create the movie from the revenues earned which is stored in the 'Worldwide Gross' column for each film.
   
     - We determined that we could not rely on this metric alone, as this film data spans many decades and there is no indication that the financial figures provided have been adjusted for inflation.
 
 - Next we decided to engineer a ratio between the revenues earned worldwide and the cost to create the movie. 
 
-    - This engineered ratio allows us to ignore additional (and potentially inaccurate) inflation adjustments over time, as each film incurred costs and revenues in it's own time, so the 'Worldwide Gross' and 'Production Budget' values may be combined and analysed without additional scaling.
+    - This engineered ratio allows us to ignore additional (and potentially inaccurate) inflation adjustments over time, as each film incurred costs and revenues in its own time, so the 'Worldwide Gross' and 'Production Budget' values may be combined and analysed without additional scaling.
 
 Release Date Filter:
 
@@ -74,16 +74,16 @@ Release Date Filter:
 
 Eliminate Films before 1990:
 
-- Looking at our year values, we determined that many of the films before 1990 acted as outliers in our analysis. Ultimately, we determined that our stakeholders are seeking analysis on more current trends in the film indusry, so we eliminated the films from before 1990 from our dataset.
+- Looking at our year values, we determined that many of the films before 1990 acted as outliers in our analysis. Ultimately, we determined that our stakeholders are seeking analysis on more current trends in the film industry, so we eliminated the films from before 1990 from our dataset.
 
 #### 2. Exploring Categorization Options for Films and Merging our Datasets.
 Within the IMDb dataset, we identified the 'genres' column contained in the 'movie_basics' table and the names of all the directors associated with each film in the 'directors column, which we will integrate later. 
 
-We first connected to the 'movie_basics' table and applied our data cleaning functions to standardize the 'genres' column like we did before for The Numbers dataset. Then we reconfigured the dataset as a pandas DataFrame, allowing us to more easily manipulate and merge the data with our exisiting dataset. Column headers were changed in order to match our exisiting dataset's headers, allowing us to join our datasets on this shared header appropriately.
+We first connected to the 'movie_basics' table and applied our data cleaning functions to standardize the 'genres' column like we did before for The Numbers dataset. Then we reconfigured the dataset as a pandas DataFrame, allowing us to more easily manipulate and merge the data with our exisiting dataset. Column headers were changed in order to match our existing dataset's headers, allowing us to join our datasets on this shared header appropriately.
 
 The IMDb data contains many more movies than we have financial information for in The Numbers dataset. We determined that we would only analyze films with sufficient financial data. 
 
-Because the 'Genres' column cateroizes some of the films in multiple genres and also contains null values, further data cleaning was required.
+Because the 'Genres' column categorizes some of the films in multiple genres and also contains null values, further data cleaning was required.
 
 - We determined that a film falling into multiple genres needs to be counted for each respective genre that it belongs to, as the film can be duplicated along the genre categorization, without duplicating any of the financial metrics. This is because we do not combine genres via addition or any other equation throughout the rest of our analysis. 
 
@@ -91,7 +91,7 @@ Because the 'Genres' column cateroizes some of the films in multiple genres and 
 
 #### 3. Strategizing how to Present our Findings to the Stakeholders.
 
-We explored which film genre on average produces the highest return on investment by various methods that grouped the genre categories and then calulated the mean ARR values for each genre.
+We explored which film genres on average produces the highest return on investment by various methods that grouped the genre categories and then calulated the mean ARR values for each genre.
 
 We determined that the range of budgets within the 'Production Budget' column was too wide to compare these film genres accurately, so we decided to create 4 distinct bins defined by the quartiles of the 'Production Budget' column. These bins represent 4 investment ranges that can be considered more risky as the amount of funds invested increases. 
 
