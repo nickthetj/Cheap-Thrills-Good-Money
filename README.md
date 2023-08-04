@@ -199,7 +199,7 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 
 
 #### Repository Structure Diagram
-
+```
 ├── LICENSE
 ├── README.md
 ├── csv_exports_for_tableau
@@ -229,3 +229,4 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 │       ├── imdb_persons_cleaning.ipynb
 │       └── tableau_data_prep.ipynb
 └── zippedData.zip
+```
