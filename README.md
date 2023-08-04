@@ -11,7 +11,7 @@ Our company is seeking to enter the film making industry by opening a new movie 
 
 ## Business Understanding
 
-Our team has decided on three budget tiers and will make our recommendations around them. We have identified the top performing movie genres and top directors our company should hire to make the movie with the highest possible return for each budget tier.
+Our team has decided on three budget tiers and will make our recommendations around them. We have identified the top performing movie genres and top directors to make the movie with the highest possible return for each budget tier.
 
 ## The Data
 
@@ -29,6 +29,7 @@ The data explored for this task came from two sources:
 We began the project by importing all necessary python libraries and reading in the data described above.
 
 For the IMDb dataset, we reviewed the following ERD visual, which allowed us to recognize how each of the tables are connected via designated keys.
+
 ![ERD Diagram IMDB](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v3/main/movie_data_erd.jpeg)
 
 ### Data Cleaning
