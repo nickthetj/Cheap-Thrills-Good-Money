@@ -1,12 +1,19 @@
 # DSC-Phase2-Project2
 
+**Authors**: Claire Sarraille, Sam Whitehurst & Nick Tjandra
+
+
+![img](images/oldHollywood.jpg)
+
+## Overview
+
+Our company is seeking to enter the film making industry by opening a new movie studio. Specifically, our company is looking to make movies with a high return using a relatively lean budget. We will make our recommendations based on data analyzed from IMDb and The Numbers datasets. 
+
 ## Business Understanding
 
-- Stakeholders: a company wanting to enter the orginail video content creation space by opening a new movie studio.
+Our team has decided on three budget tiers and will make our recommendations around them. We have identified the top performing movie genres and top directors our company should hire to make the movie with the highest possible return for each budget tier.
 
-- Task: Identify which types of films are currently the most successful and summarize these findings for stakeholders.
-
-## Data Understanding
+## The Data
 
 The data explored for this task came from two sources:
 
