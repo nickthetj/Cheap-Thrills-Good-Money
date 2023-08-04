@@ -1,7 +1,5 @@
 # DSC-Phase2-Project2
 
-![img](images/oldHollywood.jpg)
-
 ## Business Understanding
 
 Our company wants to enter the original video content creation space by opening a new movie studio. Specifically, we want to identify the top performing movie genres based on a tier of budgets and recommend which directors should make our movies for each budget tier. 
@@ -159,6 +157,10 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 
 
 # Recommendations
+
+![Level One](images/level_one.png)
+![Level Two ](images/level_2.png)
+![Level Three ](images/level_3.png)
 
 - Produce Horror films at any of the first three budget levels.
 
