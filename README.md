@@ -1,5 +1,7 @@
 # DSC-Phase2-Project2
 
+![img](images/oldHollywood.jpg)
+
 ## Business Understanding
 
 Our company wants to enter the original video content creation space by opening a new movie studio. Specifically, we want to identify the top performing movie genres based on a tier of budgets and recommend which directors should make our movies for each budget tier. 
