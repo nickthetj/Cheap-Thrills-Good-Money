@@ -5,9 +5,13 @@
 
 ![img](images/oldHollywood.jpg)
 
+## Overview
+
+Our company is seeking to enter the film making industry by opening a new movie studio. Specifically, our company is looking to make movies with a high return using a relatively lean budget. We will make our recommendations based on data analyzed from IMDb and The Numbers datasets. 
+
 ## Business Understanding
 
-Our company wants to enter the original video content creation space by opening a new movie studio. Specifically, we want to identify the top performing movie genres based on a tier of budgets and recommend which directors should make our movies for each budget tier. 
+Our team has decided on three budget tiers and will make our recommendations around them. We have identified the top performing movie genres and top directors our company should hire to make the movie with the highest possible return for each budget tier.
 
 ## The Data
 
