@@ -160,6 +160,12 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 
 # Recommendations
 
+
+![Level One](images/level_one.png)
+![Level Two ](images/level_2.png)
+![Level Three ](images/level_3.png)
+
+
 - Produce Horror films at any of the first three budget levels.
 
 - Top directors at the first Risk Level: Chris Lofing, William B. Bell, Jordan Peele 
