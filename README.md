@@ -217,7 +217,7 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
         ├── level_3.png
 │   ├── oldHollywood.jpg
 │   └── top_directors_L1.png
-├── movie_budget_risk_analysis.ipynb
+├── Final_Notebook.ipynb
 ├── notebooks
 │   ├── EDA - Sam.ipynb
 │   ├── EDA IMDB - Nick.ipynb
