@@ -1,5 +1,8 @@
 # DSC-Phase2-Project2
 
+**Authors**: Claire Sarraille, Sam Whitehurst & Nick Tjandra
+
+
 ![img](images/oldHollywood.jpg)
 
 ## Business Understanding
