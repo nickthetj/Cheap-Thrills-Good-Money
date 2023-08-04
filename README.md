@@ -27,4 +27,8 @@ The data explored for this task came from two sources:
 
 # Recommendations
 
+![Level One](images/level_one.png)
+![Level Two ](images/level_2.png)
+![Level Three ](images/level_3.png)
+
 # Conclusions
