@@ -166,12 +166,20 @@ If the new studio chooses to invest between $20,000,000 and $45,000,000, then th
 If the new studio chooses to invest more than $45,000,000, then the data shows the studio has an opportunity to make a return on their investment at a factor of 3.88 if they were to make an Animated film.
 
 
-### Top Directors for Risk Level 1:
-
+### Top Directors by Risk Level:
 - When we drilled down into Risk Level One, looking at each of the top 10 films by ARR, we found that some of the top directors are all associated with the same studio that mae The Gallows, Paranormal Activity and insidious. 7/10 of these top 10 films are [horror/mystery/thriller] or horror.
+
+#### Level 1:
 
 ![Top Directors: Risk Level 1](/images/top_directors_L1.png)
 
+#### Level 2:
+
+![Top Directors: Risk Level 2](/images/top_directors_L2.png)
+
+#### Level 3:
+
+![Top Directors: Risk Level 3](/images/top_directors_L3.png)
 
 
 # Recommendations
@@ -194,7 +202,7 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 
 # Presentation and Additional Links:
 
-- Presentation Slide Deck
+- [Presentation Slide Deck](Presentation.pdf)
 
 - [Tableau Dashboard](https://public.tableau.com/app/profile/claire.sarraille/viz/MovieBudgetRiskAnalysis/BudgetbyGenre?publish=yes)
 
@@ -218,6 +226,8 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
         ├── level_3.png
 │   ├── oldHollywood.jpg
 │   └── top_directors_L1.png
+│   └── top_directors_L2.png
+│   └── top_directors_L3.png
 ├── Final_Notebook.ipynb
 ├── notebooks
 │   ├── EDA - Sam.ipynb
