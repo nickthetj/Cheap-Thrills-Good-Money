@@ -2,9 +2,7 @@
 
 ## Business Understanding
 
-- Stakeholders: a company wanting to enter the orginail video content creation space by opening a new movie studio.
-
-- Task: Identify which types of films are currently the most successful and summarize these findings for stakeholders.
+Our company wants to enter the original video content creation space by opening a new movie studio. Specifically, we want to identify the top performing movie genres based on a tier of budgets and recommend which directors should make our movies for each budget tier. 
 
 ## Data Understanding
 
