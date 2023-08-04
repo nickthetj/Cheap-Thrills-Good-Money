@@ -117,8 +117,6 @@ This spread includes as many datapoints as we had available to us in The Numbers
 
 #### Binning the datasets based off our investment risk levels.
 
-##### Level 1
-
 After our initial splitting binning of the data, we ran another value counts on the films at this risk level to get a sense for the distribution of films at this risk level.
 
 #### Setting the median as a parameter for genres to continue to be relavant to our analysis.
@@ -140,29 +138,39 @@ Mystery, Horror, and Thriller had the highest coefficient values.
 
 We looped through each of the 3 remaining risk levels next. We performed all of the same calculations for each of the risk levels, so to save space we have not copied our Markdown again for each risk level, as the logic remains the same. Comments have been included in the code cells for a brief reminder.
 
-### Top Directors for Risk Level 1:
 
-- When we drilled down into Risk Level One, looking at each of the top 10 films by ARR, we found that some of the top directors are all associated with the same studio that mae The Gallows, Paranormal Activity and insidious. 7/10 of these top 10 films are [horror/mystery/thriller] or horror.
-
-![Top Directors: Risk Level 1](/images/top_directors_L1.png)
 
 # Data Summary
 
-- At Risk Level 1 ($0 - $5,575,000): the film genres with the highest ARR are: Mystery, Horror, Thriller. The relative order of these films is further supported by our linear regression analysis which produced coefficients with magnitudes that aligned with the ARR calculation ordering. 
+- At Risk Level 1 ($0 - $5,575,000): the film genres with the highest ARR are: Mystery, Horror, Thriller. The relative order of these films is further supported by our linear regression analysis which produced coefficients with magnitudes that aligned with the ARR calculation ordering.
+
+![Level One](images/risk_level_graphs/level_1.png)
 
 If this new studio chooses to invest less than $5,575,000 then the data shows that the studio has an opportunity to make a return on their investment at a factor of 16.08 if they were to make a Mystery film.
 
 - At Risk Level 2 ($5,575,000 - $20,000,000): the film genres with the highest ARR are: Horror, Mystery, Thriller. Our linear regression supported this conclusion again.
 
+![Level Two ](images/risk_level_graphs/level_2.png)
+
 If the new studio chooses to invest between $5,575,000 and $20,000,000, then the data shows the studio has an opportunity to make a return on their investment at a factor of 5.11 if they were to make a Horror film.
 
 - At Risk Level 3 ($20,000,000 - $45,000,000): the film genres with the highest ARR are: Horror, Romance, Documentary. Our linear regression supported this conclusion again.
+
+![Level Three ](images/risk_level_graphs/level_3.png)
 
 If the new studio chooses to invest between $20,000,000 and $45,000,000, then the data shows the studio has an opportunity to make a return on their investment at a factor of 3.04 if they were to make a Horror film.
 
 - At Risk Level 4 ($45,000,000+): the film genres with the highest ARR are: Animation, Sci-Fi, and Adventure. Our linear regression supported this conclusion again.
 
 If the new studio chooses to invest more than $45,000,000, then the data shows the studio has an opportunity to make a return on their investment at a factor of 3.88 if they were to make an Animated film.
+
+
+### Top Directors for Risk Level 1:
+
+- When we drilled down into Risk Level One, looking at each of the top 10 films by ARR, we found that some of the top directors are all associated with the same studio that mae The Gallows, Paranormal Activity and insidious. 7/10 of these top 10 films are [horror/mystery/thriller] or horror.
+
+![Top Directors: Risk Level 1](/images/top_directors_L1.png)
+
 
 
 # Recommendations
@@ -187,8 +195,37 @@ If the new studio chooses to invest more than $45,000,000, then the data shows t
 
 - Presentation Slide Deck
 
-- Tableau Workbook
+- [Tableau Dashboard](https://public.tableau.com/app/profile/claire.sarraille/viz/MovieBudgetRiskAnalysis/BudgetbyGenre?publish=yes)
 
 
+#### Repository Structure Diagram
 
-REPO Path/Tree
+├── LICENSE
+├── README.md
+├── csv_exports_for_tableau
+│   ├── directors.csv
+│   ├── movie_basics.csv
+│   ├── movie_genre_directors.csv
+│   ├── movie_risk_NO_genre.csv
+│   ├── movie_risk_genre.csv
+│   └── persons.csv
+├── images
+│   ├── movie_data_erd.jpeg│   
+    ├── risk_level_graphs│   
+        ├── level_1.png
+        ├── level_2.png
+        ├── level_3.png
+│   ├── oldHollywood.jpg
+│   └── top_directors_L1.png
+├── movie_budget_risk_analysis.ipynb
+├── notebooks
+│   ├── EDA - Sam.ipynb
+│   ├── EDA IMDB - Nick.ipynb
+│   ├── EDA IMDB - Sam.ipynb
+│   ├── EDA TN.MovieBudget - Nick.ipynb
+│   ├── EDA TN.MovieBudget - Sam Risk Bins by Production Budget.ipynb
+│   ├── OLD_Movie Budget Risk Analysis.ipynb
+│   └── claire_dev
+│       ├── imdb_persons_cleaning.ipynb
+│       └── tableau_data_prep.ipynb
+└── zippedData.zip
