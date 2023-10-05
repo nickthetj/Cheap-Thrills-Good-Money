@@ -1,4 +1,4 @@
-# DSC-Phase2-Project2
+# Box Office Analysis
 
 **Authors**: Claire Sarraille, Sam Whitehurst & Nick Tjandra
 
