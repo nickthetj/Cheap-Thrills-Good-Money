@@ -3,7 +3,7 @@
 **Authors**: Claire Sarraille, Sam Whitehurst & Nick Tjandra
 
 
-![img](images/oldHollywood.jpg)
+![oldHollywood](https://github.com/user-attachments/assets/33890d4c-580a-4974-b14e-5aa3084ab5cc)
 
 ## Overview
 
